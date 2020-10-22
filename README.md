@@ -1,6 +1,6 @@
 # Unit 6 - Pythonic Monopoly
 
-![San Francisco Park Reading](san-francisco-park-reading.jpg)
+![San Francisco Park Reading](Data/san-francisco-park-reading.jpg)
 
 *[San Francisco Park Reading by Juan Salamanca](https://www.pexels.com/photo/park-san-francisco-reading-61109/) | [Free License](https://www.pexels.com/photo-license/)*
 
@@ -39,11 +39,11 @@ Note: By default, the limits auto-scale to the data. However, it is hard to see 
 
 Default Bar Chart
 
-  ![unscaled-bar.png](unscaled-bar.png)
+  ![unscaled-bar.png](Data/unscaled-bar.png)
 
 Bar Chart with y-axis limits adjusted
 
-  ![scaled-bar.png](scaled-bar.png)
+  ![scaled-bar.png](Data/scaled-bar.png)
 
 
 #### Average Gross Rent in San Francisco Per Year
@@ -53,7 +53,7 @@ In this section, you want to visualize the average gross rent per year to better
 1. Calculate the mean `gross` for each year.
 2. Visualize the mean gross rent per year as a line chart.
 
-  ![gross-rent.png](gross-rent.png)
+  ![gross-rent.png](Data/gross-rent.png)
 
 #### Average Sales Price Per Year
 
@@ -62,7 +62,7 @@ In this section, you want to determine the average sales price per year to bette
 1. Calculate the mean `gross` for each year.
 2. Visualize the mean gross rent per year as a line chart.
 
-  ![average-sales.png](average-sales.png)
+  ![average-sales.png](Data/average-sales.png)
 
 #### Average Prices By Neighborhood
 
@@ -71,13 +71,13 @@ In this section, you want to compare the average prices by neighborhood.
 1. Group the data by year and by neighborhood and calculate the average (mean) `sales_price_sqr_foot`.
 2. Visualize the mean `sales_price_sqr_foot` per year with the neighborhood as a dropdown selector. Hint: Use hvplot to obtain the interactive dropdown selector for the neighborhood.
 
-  ![avg-price-neighborhood.png](avg-price-neighborhood.png)
+  ![avg-price-neighborhood.png](Data/avg-price-neighborhood.png)
 
 #### Top 10 Most Expensive Neighborhoods
 
 In this section, you want to figure out which neighborhoods are the most expensive. You will need to calculate the mean sale price for each neighborhood and then sort the values to obtain the top 10 most expensive neighborhoods on average. Plot the results as a bar chart.
 
-  ![top-10-expensive-neighborhoods.png](top-10-expensive-neighborhoods.png)
+  ![top-10-expensive-neighborhoods.png](Data/top-10-expensive-neighborhoods.png)
 
 #### Parallel Coordinates and Parallel Categories Analysis
 
@@ -87,11 +87,11 @@ Using the DataFrame of Average values per neighborhood (calculated above), creat
 
 1. Create a Parallel Coordinates Plot
 
-  ![parallel-coordinates.png](parallel-coordinates.png)
+  ![parallel-coordinates.png](Data/parallel-coordinates.png)
 
 2. Create a Parallel Categories Plot
 
-  ![parallel-categories.png](parallel-categories.png)
+  ![parallel-categories.png](Data/parallel-categories.png)
 
 #### Neighborhood Map
 
@@ -99,7 +99,7 @@ In this final section, you will read in neighborhood location data and build an 
 
 Remember that in order to create maps visualizations using Plotly Express, you will need to create an account at [mapbox](https://www.mapbox.com/) and [create an access token](https://docs.mapbox.com/help/how-mapbox-works/access-tokens/#creating-and-managing-access-tokens).
 
-  ![neighborhood-map.png](neighborhood-map.png)
+  ![neighborhood-map.png](Data/neighborhood-map.png)
 
 ### Dashboard
 
@@ -109,7 +109,7 @@ Create a new `dashboard.ipynb` for your dashboard code. Copy over the code for e
 
 Sample Dashboard:
 
-  ![dashboard-demo.gif](dashboard-demo.gif)
+  ![dashboard-demo.gif](Data/dashboard-demo.gif)
 
 ---
 
